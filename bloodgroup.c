@@ -12,10 +12,12 @@ void main()
       printf("What is your blood groups [A, B, AB, or O]? ");
       scanf("%s", G);
 
+
       if (strcmp(G, "A") !=0  &&
                             strcmp(G, "B") !=0  &&
                             strcmp(G, "AB") ==0   &&
                             strcmp(G, "O") ==0 )
+
         printf("Blood group %s is incorrect! Please try again.\n", G);
     }  while (strcmp(G, "A") !=0  &&
                             strcmp(G, "B") !=0  &&
